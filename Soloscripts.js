@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 var numbers1 = [4, 1, 6, 5, 8];
 var numbers2 = [7, 3, 2, 9, 10];
-var numbers3 = [];
+
 
 var numbers3 = $.merge(  numbers1 ,  numbers2  )				 //merge in jQUery
 
