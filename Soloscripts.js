@@ -36,3 +36,36 @@ numbers3.sort(sortedArray);							// call function
 console.log(numbers3);								// console.log to check work
 
 });
+
+
+//QUESTION 3
+
+function RightTriangle(a,b){
+	//give temporary value to a, b and c
+	this.a = a;
+	this.b = b;
+	// this.c
+}
+
+RightTriangle.prototype.hypotenuse = function(){
+
+	this.c = Math.sqrt((this.a * this.a) + (this.b * this.b));
+	console.log(this.c);
+
+}
+
+var finalTriangle = new RightTriangle(3,4);
+	
+	console.log(RightTriangle);
+	finalTriangle.hypotenuse();
+	console.log(finalTriangle);
+	console.log(this.c);
+
+// return Math.sqrt(c);
+// console.log(c);
+// rightTriangle(3,4);
+// // rightTriangle(3,4)
+// // hypotenuse(3,4);
+// console.log(c);
+// var newTriangle = rightTriangle(3,4);
+
